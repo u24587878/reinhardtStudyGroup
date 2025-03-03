@@ -8,16 +8,16 @@ namespace reinhardtStudyGroup.Models
 {
     public class GroupMemberClass
     {
-        [Display(Name = "Student Number")]
+        [Display(Name = "STUDENT NUMBER")]
         public string StudentNumber { get; set; }
 
-        [Display(Name = "First Name")]
+        [Display(Name = "NAME")]
         public string FirstName { get; set; }
 
-        [Display(Name = "Last Name")]
+        [Display(Name = "SURNAME")]
         public string LastName { get; set; }
 
-        [Display(Name = "Email Address")]
+        [Display(Name = "EMAIL ADDRESS")]
         public string EmailAddress { get; set; }
 
     }
